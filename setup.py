@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="wiserHeatAPIv2", # Replace with your own username
+    name="rrwiserHeatAPIv2", # Replace with your own username
     version="0.0.28",
-    author="Mark Parker",
-    author_email="msparker@sky.com",
+    author="Robin Rottier",
+    author_email="robin@rottier.co.uk",
     description="An API for controlling the Drayton Wiser Heating system",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/msp1974/wiserheatapiv2",
+    url="https://github.com/robinrottier/wiserheatapiv2",
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
