@@ -5,7 +5,7 @@ import pathlib
 import sys
 import time
 
-sys.path.append(pathlib.Path(__file__).parent.resolve())
+sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent))
 
 from wiserHeatAPIv2.const import TEXT_UNKNOWN
 from wiserHeatAPIv2 import wiserhub
